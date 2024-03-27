@@ -1,12 +1,12 @@
 
 format:
-	cargo fmt --quiet
+	cargo fmt 
 
 lint:
-	cargo clippy --quiet
+	cargo clippy 
 
 test:
-	cargo test --quiet
+	cargo test 
 
 run:
 	cargo run -- -f ./data.csv -c age -t 20
